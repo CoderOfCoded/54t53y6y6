@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>WEB DESIGNER</title>
+    <link rel="stylesheet" href="Styler.css" class="">
+
+    <script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">ZIMBA BET</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="https://sportsbook.fanduel.com/" target="_blank">HOME</a></li>
+                    <li><a href="https://www.sportsbettingdime.com/sportsbooks/" target="_blank">ABOUT</li>
+                    <li><a href="https://www.skysports.com/" target="_blank">NEWS</a></li>
+                    <li><a href="https://www.bookmakers.bet/review/bet365/" target="_blank">DESIGN</a></li>
+                    <li><a href="Contact.html" target="_blank">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type to text">
+                <a herf="#"><button class="btn">Search</button></a>
+            </div>
+ 
+        </div>
+        <div class="content">
+            <h1>BET & <br><span>WIN</span><br>MORE MONEY</h1>
+            <p class="par">Online Sports Betting International & Live Betting Odds at:<br>
+                <Button class="btn1"><a href="https://www.sportybet.com">Sportybet</a></Button>
+                <Button class="btn1"><a href="https://gwalabet.co.tz/">Gwalabet</a></Button>
+                <Button class="btn1"><a href="https://1xbet.com/en">1XBET</a></Button>
+                <Button class="btn1"><a href="https://www.wasafibet.co.tz/">WasafiBet</a></Button><br>
+                <Button class="btn1"><a href="https://www.betpawa.co.tz/">BetPawa</a></Button>
+                <Button class="btn1"><a href="https://www.betway.co.tz">Betway</a></Button>
+                <Button class="btn1"><a href="https://www.888bet.tz/">888bet</a></Button>
+                <Button class="btn1"><a href="https://www.winprincess.co.tz">WinPrincess</a></Button>
+            </p>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Fixtures</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://www.google.com/search?q=epl+fixtures&ei=fz3dY83-BpaS8gL7vp7ABA&ved=0ahUKEwiNuvPc6fn8AhUWiVwKHXufB0gQ4dUDCA8&uact=5&oq=epl+fixtures&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIHCAAQsAMQQzIMCC4QyAMQsAMQQxgBMgwILhDIAxCwAxBDGAEyDAguEMgDELADEEMYATIMCC4QyAMQsAMQQxgBSgQIQRgASgQIRhgAUL0XWIEbYJ8haAFwAXgAgAGdA4gB_AWSAQUzLTEuMZgBAKABAcgBDcABAdoBBAgBGAg&sclient=gws-wiz-serp" target="_blank">Epl</a>
+                    <a href="https://www.google.com/search?q=laliga+fixtures&oq=laliga&aqs=chrome.1.69i57j0i271l2.3926j0j9&sourceid=chrome&ie=UTF-8" target="_blank">La-liga</a>
+                    <a href="https://www.google.com/search?q=bundesliga+fixtures&ei=8D3dY46VMZ6HhbIPotO2kA0&oq=bun&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMg8IABCxAxCDARBDEEYQ_QEyCgguEIMBELEDEEMyCggAELEDEIMBEEMyBAgAEEMyCgguEIMBELEDEEMyBAgAEEMyCggAELEDEIMBEEMyBAgAEEMyBAgAEEMyBAgAEEMyFQguEIMBELEDEEMQ3AQQ3QQQ4AQYAToICAAQsQMQgwE6BQgAEIAEOgUILhCABDoLCC4QgAQQsQMQgwE6BAguEEM6BwguELEDEENKBAhBGABKBAhGGAFQAFjjBWDgGGgAcAF4AIABhwaIAZcMkgEJMi0xLjUtMS4xmAEAoAEBwAEB2gEGCAEQARgU&sclient=gws-wiz-serp" target="_blank">Bundesliga</a>
+                    <a href="https://www.google.com/search?q=serie+a+fixtures&ei=Ez7dY-LxMIzngAadi5zoCA&oq=seria+fixtures&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMggIABAHEB4QCjIICAAQBxAeEAoyCAgAEAcQHhAKMgsIABAHEB4Q8QQQCjIICAAQBxAeEAoyCwgAEAcQHhDxBBAKMggIABAHEB4QCjIICAAQBxAeEAoyCwgAEAcQHhDxBBAKMgsIABAHEB4Q8QQQCkoECEEYAEoECEYYAFAAWIAIYMgZaABwAXgAgAHGBYgB6hKSAQkyLTEuMi42LTKYAQCgAQHAAQE&sclient=gws-wiz-serp" target="_blank">Seria A</a>
+                    <a href="https://www.google.com/search?q=uefa+a+fixtures&ei=ZT7dY7ylJoqF8gKt-JWoBg&ved=0ahUKEwj86-jK6vn8AhWKglwKHS18BWUQ4dUDCA8&uact=5&oq=uefa+a+fixtures&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIHCAAQsAMQQzIMCC4QyAMQsAMQQxgBMgwILhDIAxCwAxBDGAEyDAguEMgDELADEEMYATIMCC4QyAMQsAMQQxgBSgQIQRgASgQIRhgAUMY2WNA-YJlBaANwAXgAgAHxBIgB3guSAQU0LTIuMZgBAKABAcgBDcABAdoBBAgBGAg&sclient=gws-wiz-serp" target="_blank">Champions League</a>
+                </div>
+              <div>
+                  </div>
+              </div>
+                 <button class="cn"><a href="#">JOIN US</a></button>
+                 <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="number" name="number" placeholder="Enter Your Phone Number" >
+                    <input type="password" name="password" placeholder="Enter password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link" style="text-align: center;">Don't have an account<br>
+                    <a href="#" style="text-align:center;">Sign up</a> Here</a></p>
+                    <p class="log">Log in with</p>
+
+                    <div class="icon">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div>
+                 </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
+   
